@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* change for underlying background color*/
+body {
+    background-color: #d9dcd6;
+}
+/* header styling elements */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 100%;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* controls anchor text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* controls text in each paragraph*/
+p {
+    font-size: 108.25%;
+}
+/* controls header image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* controls display of images and text wrapping in sections */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* use main-page-aspects class if sections are to be uniform */
+/* following was done to accomplish the same style elements, while reducing the need to have so many individual classes simplfying the ability to change the overall look of the site*/
+.main-page-aspects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.benefits-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.main-page-aspects h2 {
+    margin-bottom: 20px;
+    font-size: 125%;
+}
+
+.benefits-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Images */
+.main-page-aspects img {
+    max-height: 200px
+    
+}
+
+.benefits-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 75%;
+}
+
