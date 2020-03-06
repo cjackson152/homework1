@@ -1,1 +1,2 @@
-# homework1
+# 
+I removed a bunch of unnecessary tags and classes that were bloating the css file, in doing so made it much easier to keep the site uniform and making changes to the page much simpler. Changed several elements to be percent based so that they would scale better when the site is enlarged. re-ordered several elements to improve semantics.
